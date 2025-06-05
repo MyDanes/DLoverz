@@ -1,0 +1,74 @@
+:root {
+  --sans-font: "Avenir Next", Avenir, "Nimbus Sans L", Roboto, "Noto Sans",
+    "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
+}
+
+body {
+  padding-bottom: 3rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+ul > li {
+  margin: 0.5rem 0;
+  font-size: 1.3rem;
+}
+.indent {
+  text-indent: 1rem; /* Adjust the value as needed */
+}
+
+.indlng {
+  text-indent: 2.2rem; /* Adjust the value as needed */
+}
+
+i.fa-pad-right {
+  margin-right: 0.5rem;
+}
+
+header > img {
+  min-width: 300px;
+  max-width: min(550px, 100%);
+  width: fit-content;
+  margin: 1rem 0 0.25rem 0;
+}
+
+body > header {
+  padding: 0rem 0.5rem;
+}
+
+header > nav {
+  padding: 0;
+}
+
+header > nav a.available {
+  color: var(--accent) !important;
+  border-color: var(--accent) !important;
+}
+
+.dog {
+  min-width: 300px;
+  max-width: min(550px, 100%);
+  width: fit-content;
+  margin: 1rem auto;
+  style="float left":
+  display: block;
+}
+
+div.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a.gooddog {
+  width: min-content;
+}
+
+.gd {
+  min-width: 200px;
+  max-width: min(100px, 40%);
+  /* margin: 1rem 0; */
+}
