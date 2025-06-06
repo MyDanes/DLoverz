@@ -20,10 +20,6 @@ ul > li {
   text-indent: 1rem; /* Adjust the value as needed */
 }
 
-.indlng {
-  text-indent: 2.2rem; /* Adjust the value as needed */
-}
-
 i.fa-pad-right {
   margin-right: 0.5rem;
 }
@@ -43,7 +39,7 @@ header > nav {
   padding: 0;
 }
 
-header > nav a.available {
+header > nav a.current {
   color: var(--accent) !important;
   border-color: var(--accent) !important;
 }
