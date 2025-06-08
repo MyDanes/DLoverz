@@ -17,7 +17,8 @@ ul > li {
   font-size: 1.3rem;
 }
 .indent {
-  text-indent: 1rem; /* Adjust the value as needed */
+  margin-left: 2rem;
+  list-style: initial;
 }
 
 i.fa-pad-right {
