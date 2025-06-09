@@ -42,160 +42,46 @@
     <main>
       <h1>Available Puppies</h1>
 
-        <strong>Chocolate Mini Aussiedoodle litter! </strong>
+      <strong>Chocolate Mini Aussiedoodle litter! </strong>
 
-      
       <p>
         We have a beautiful litter on the way which will be all chocolate:
         Puppies can be either Chocolate / Chocolate Parti or Chocolate Merle
       </p>
       <p>Both Hazel & Chip are health tested</p>
-      <p>Photos from Chip & Hazel's litter last year (every family is in love with their Chip X Hazel babies):</p>
+      <p>
+        Photos from Chip & Hazel's litter last year (every family is in love
+        with their Chip X Hazel babies):
+      </p>
 
-           <p></p>
-     <p>
-        Apply to become part of our Doodle Dandy Family and discover how one of our pups
-         can bring endless joy and companionship to your home! Once
-        you have submitted your application we are happy to text, call or video
-        call with the puppies.
+      <p></p>
+      <p>
+        Apply to become part of our Doodle Dandy Family and discover how one of
+        our pups can bring endless joy and companionship to your home! Once you
+        have submitted your application we are happy to text, call or video call
+        with the puppies.
       </p>
       <a></a>
-         <a
+      <a
         href="https://doodledandy.notion.site/2074d34a81b281a09bdfd4048017df18"
         target="_blank"
         >Apply Here
         <i class="fa-solid fa-paw"></i>
       </a>
-
-       <body
-    class="font-sans bg-gray-100 flex items-center justify-center min-h-screen p-4"
-  >
-    <div class="slideshow-container">
-      <!-- Slide 1 -->
-      <div class="mySlides fade">
-        <img
-          src="https://live.staticflickr.com/65535/54574251459_3248cb9a90_h.jpg"
-          alt="Beautiful Landscape 1"
-          onerror="this.onerror=null;this.src='https://placehold.co/800x450/cccccc/333333?text=Image+1+Unavailable';"
-        />
-      </div>
-
-      <!-- Slide 2 -->
-      <div class="mySlides fade">
-        <img
-          src="https://live.staticflickr.com/65535/54574063636_d5a0d0ef0a_h.jpg"
-          alt="Cityscape at Night"
-          onerror="this.onerror=null;this.src='https://placehold.co/800x450/cccccc/333333?text=Image+2+Unavailable';"
-        />
-      </div>
-
-      <!-- Slide 3 -->
-      <div class="mySlides fade">
-        <img
-          src="https://live.staticflickr.com/65535/53770381509_373151833c_o.jpg"
-          alt="Mountain View"
-          onerror="this.onerror=null;this.src='https://placehold.co/800x450/cccccc/333333?text=Image+3+Unavailable';"
-        />
-      </div>
-
-      <!-- Slide 4 - Example of a placeholder if you don't have enough Flickr images yet -->
-      <div class="mySlides fade">
-        <img
-          src="https://placehold.co/800x450/8a2be2/ffffff?text=Your+Fourth+Image+Here"
-          alt="Placeholder Image 4"
-          onerror="this.onerror=null;this.src='https://placehold.co/800x450/cccccc/333333?text=Image+4+Unavailable';"
-        />
-      </div>
-
-      <!-- Next and previous buttons -->
-     
-
-      <div class="dots-container">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
-      </div>
-    </div>
-
-    <script>
-      let slideIndex = 1; // Current slide index, starts at 1
-      let slideshowInterval; // Variable to hold the interval for auto-play
-
-      // Function to display the current slide
-      function showSlides(n) {
-        let i;
-        // Get all elements with class 'mySlides' (the individual slides)
-        let slides = document.getElementsByClassName("mySlides");
-        // Get all elements with class 'dot' (the navigation indicators)
-        let dots = document.getElementsByClassName("dot");
-
-        // Handle wrapping around if n is out of bounds
-        if (n > slides.length) {
-          // If 'n' is greater than total slides, go to the first slide
-          slideIndex = 1;
-        }
-        if (n < 1) {
-          // If 'n' is less than 1, go to the last slide
-          slideIndex = slides.length;
-        }
-
-        // Hide all slides
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-
-        // Remove 'active' class from all dots
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-
-        // Display the current slide and add 'active' class to the corresponding dot
-        slides[slideIndex - 1].style.display = "block"; // Arrays are 0-indexed, so -1
-        dots[slideIndex - 1].className += " active";
-      }
-
-      // Function to advance/go back slides
-      function plusSlides(n) {
-        // Clear any existing auto-play interval when a button is clicked
-        clearInterval(slideshowInterval);
-        showSlides((slideIndex += n));
-        // Restart auto-play after a short delay
-        startSlideshowAutoPlay();
-      }
-
-      // Function to jump to a specific slide using dots
-      function currentSlide(n) {
-        // Clear any existing auto-play interval when a dot is clicked
-        clearInterval(slideshowInterval);
-        showSlides((slideIndex = n));
-        // Restart auto-play after a short delay
-        startSlideshowAutoPlay();
-      }
-
-      // Function to start the auto-play slideshow
-      function startSlideshowAutoPlay() {
-        // Clear any existing interval to prevent multiple intervals running
-        clearInterval(slideshowInterval);
-        slideshowInterval = setInterval(() => {
-          plusSlides(1); // Advance to the next slide every 5 seconds
-        }, 5000); // 5000 milliseconds = 5 seconds
-      }
-
-      // Initialize the slideshow when the page loads
-      document.addEventListener("DOMContentLoaded", () => {
-        showSlides(slideIndex); // Show the first slide
-        startSlideshowAutoPlay(); // Start auto-play
-      });
-    </script>
-    <p></p>
-       <img
+      <iframe
+        src="https://docs.google.com/presentation/d/e/2PACX-1vQItw84kaDm4etCTH8HaEDxA5NaveYqJKo4-e4gPAJkoTsomBis0nrkDOgQwnS1x1Wxvq9J__UkQ-qE/pubembed?start=true&loop=true&delayms=3000"
+        frameborder="0"
+        width="960"
+        height="569"
+        allowfullscreen="true"
+        mozallowfullscreen="true"
+        webkitallowfullscreen="true"
+      ></iframe>
+      <img
         src="../assets/images/aussiedoodlepuptoon.png"
         alt="Doodle Dandy Bernedoodle puppy"
         class="dog"
       />
-   
-     
     </main>
   </body>
 </html>
